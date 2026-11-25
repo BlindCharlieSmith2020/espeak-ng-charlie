@@ -4,7 +4,7 @@
         Source: Activity title.
         Description: Title for the Settings activity.
     -->
-  <string name="tts_settings_label">eSpeak TTS Settings</string>
+  <string name="tts_settings_label">eSpeak NG Charlie settings</string>
   <!--
         Source: Preference title.
         Description: Title for the preference that controls default voice pitch.
@@ -72,4 +72,31 @@
   <string name="variant_whisper">Whisper</string>
   <string name="import_voice_title">Import eSpeak dictionary</string>
   <string name="import_voice_description">Import an eSpeak voice dictionary file from the SD card.</string>
+
+  <string name="rescan_voices">Rescan voices</string>
+  <string name="rescan_voices_summary">Look in Documents/eSpeak NG Voices and add any new variants, languages and dictionaries.</string>
+  <string name="design_voice">Design voice</string>
+  <string name="design_voice_summary">Adjust pitch, speed, formants, roughness, breathiness and flutter, preview, then save a named voice.</string>
+  <string name="design_voice_name">Voice name</string>
+  <string name="design_voice_name_hint">My voice</string>
+  <string name="design_flutter">Flutter</string>
+  <string name="design_roughness">Roughness</string>
+  <string name="design_breathiness">Breathiness</string>
+  <string name="design_formant1">Formant 1</string>
+  <string name="design_formant2">Formant 2</string>
+  <string name="design_formant3">Formant 3</string>
+  <string name="design_preview">Preview</string>
+  <string name="design_previewing">Playing preview</string>
+  <string name="design_save">Save voice</string>
+  <string name="design_saved_fmt">Saved %1$s to %2$s. It is now in your variant list. Choose Rescan voices if it does not appear yet.</string>
+  <string name="open_tts_settings">eSpeak NG Charlie settings</string>
+  <string name="grant_storage_access">Allow all files access</string>
+  <string name="need_all_files_access">Please allow all files access so voices can be read from Documents/eSpeak NG Voices, then try Rescan voices again.</string>
+  <string name="storage_granted">All files access is on. You can drop files into the voice folder and choose Rescan voices.</string>
+  <string name="storage_needed">To import voices from Documents/eSpeak NG Voices, choose Allow all files access, then Rescan voices.</string>
+  <string name="voice_folder_path_fmt">Voice folder: %s</string>
+  <string name="how_to_pick_en_nz_title">How to pick English (New Zealand)</string>
+  <string name="how_to_pick_en_nz">To use English (New Zealand): open Android Settings, then Accessibility, then Text-to-speech. Set the preferred engine to eSpeak NG Charlie. Then open the language or voice list and choose English (New Zealand). In TalkBack, you can also set this under TalkBack settings, then Text to speech. You can open eSpeak NG Charlie settings from this app to pick a voice variant as well.</string>
+  <string name="about_title">About</string>
+  <string name="about_text">eSpeak NG Charlie 1.0.0, based on eSpeak NG %1$s. This is free software under the GNU General Public License, version 3. Source: %2$s</string>
 </resources>

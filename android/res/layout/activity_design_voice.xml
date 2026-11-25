@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/design_voice"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/design_voice_name" />
+        <EditText
+            android:id="@+id/voice_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/design_voice_name_hint"
+            android:inputType="textCapWords"
+            android:contentDescription="@string/design_voice_name" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/setting_default_pitch"
+            android:paddingTop="8dp" />
+        <TextView
+            android:id="@+id/pitch_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:contentDescription="@string/setting_default_pitch" />
+        <SeekBar
+            android:id="@+id/pitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/setting_default_pitch" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/espeak_pitch_range"
+            android:paddingTop="8dp" />
+        <TextView
+            android:id="@+id/pitch_range_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:contentDescription="@string/espeak_pitch_range" />
+        <SeekBar
+            android:id="@+id/pitch_range"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/espeak_pitch_range" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/setting_default_rate"
+            android:paddingTop="8dp" />
+        <TextView
+            android:id="@+id/speed_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:contentDescription="@string/setting_default_rate" />
+        <SeekBar
+            android:id="@+id/speed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/setting_default_rate" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/design_flutter"
+            android:paddingTop="8dp" />
+        <TextView
+            android:id="@+id/flutter_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:contentDescription="@string/design_flutter" />
+        <SeekBar
+            android:id="@+id/flutter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/design_flutter" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/design_roughness"
+            android:paddingTop="8dp" />
+        <TextView
+            android:id="@+id/roughness_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:contentDescription="@string/design_roughness" />
+        <SeekBar
+            android:id="@+id/roughness"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/design_roughness" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/design_breathiness"
+            android:paddingTop="8dp" />
+        <TextView
+            android:id="@+id/breathiness_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:contentDescription="@string/design_breathiness" />
+        <SeekBar
+            android:id="@+id/breathiness"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/design_breathiness" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/design_formant1"
+            android:paddingTop="8dp" />
+        <TextView
+            android:id="@+id/formant1_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:contentDescription="@string/design_formant1" />
+        <SeekBar
+            android:id="@+id/formant1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/design_formant1" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/design_formant2"
+            android:paddingTop="8dp" />
+        <TextView
+            android:id="@+id/formant2_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:contentDescription="@string/design_formant2" />
+        <SeekBar
+            android:id="@+id/formant2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/design_formant2" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/design_formant3"
+            android:paddingTop="8dp" />
+        <TextView
+            android:id="@+id/formant3_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:contentDescription="@string/design_formant3" />
+        <SeekBar
+            android:id="@+id/formant3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/design_formant3" />
+
+        <Button
+            android:id="@+id/btn_preview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/design_preview"
+            android:contentDescription="@string/design_preview" />
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/design_save"
+            android:contentDescription="@string/design_save" />
+        <TextView
+            android:id="@+id/design_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="12dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:focusable="true" />
+    </LinearLayout>
+</ScrollView>

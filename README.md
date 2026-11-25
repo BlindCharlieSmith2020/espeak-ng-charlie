@@ -1,3 +1,12 @@
+# eSpeak NG Charlie
+
+This repository is **eSpeak NG Charlie**, a GPLv3 Android fork of eSpeak NG
+for Charlie Smith. See [CHARLIE.md](CHARLIE.md) for what this fork adds, how
+to import voices, how to use Design voice, and how to pick English (New
+Zealand). The original eSpeak NG README follows.
+
+---
+
 # eSpeak NG Text-to-Speech
 
 - [Features](#features)

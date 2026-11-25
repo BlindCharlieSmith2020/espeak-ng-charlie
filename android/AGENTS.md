@@ -110,7 +110,7 @@ Tests are in `eSpeakTests/src/com/reecedunn/espeak/test/` — instrumentation te
 ### Modifying JNI bindings
 
 1. Add/change native method declaration in `SpeechSynthesis.java`
-2. Implement in `jni/jni/eSpeakService.c` (function name follows JNI convention: `Java_com_reecedunn_espeak_SpeechSynthesis_<methodName>`)
+2. Implement in `jni/jni/eSpeakService.c` (function name follows JNI convention: `Java_nz_charlie_espeakng_SpeechSynthesis_<methodName>`)
 3. `./gradlew assembleDebug` rebuilds native libs automatically
 
 ### Updating voice data

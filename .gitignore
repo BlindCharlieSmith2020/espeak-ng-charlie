@@ -1,42 +1,28 @@
 # editor/external files:
-
 *~
 .*.swp
 *.bat
-
 # OS metadata files:
-
 .DS_Store
-
 # Eclipse project files:
-
 .autotools
 .cproject
 .project
 .settings
-
 # VSCode project files:
 .vscode
-
 # intermediate build output:
-
 *.o
 *.lo
-
 # android build output:
-
 bin/
 obj/
 gen/
 android/icons/*.png
-
 libttsespeak.so
-
 android/res/raw/espeakdata.zip
 android/res/raw/espeakdata_version
-
 local.properties
-
 # android gradle output:
 .cxx
 .gradle/
@@ -44,22 +30,17 @@ local.properties
 build*/
 *.iml
 !gradlew.bat
-
 # emscripten output:
 a.out
 a.out.js
-
 # autotools
-
 AUTHORS
 INSTALL
 NEWS
 README
 ChangeLog
-
 .deps/
 .libs/
-
 Makefile
 Makefile.in
 aclocal.m4
@@ -74,37 +55,26 @@ ltmain.sh
 missing
 stamp-h1
 .dirstamp
-
 m4/*
 !m4/ax_check_compile_flag.m4
-
 # libraries
-
 docs/speak_lib.h
-
 libespeak-ng.a
 libespeak-ng.la
 libespeak-ng.so*
-
 libespeak-ng-test.a
 libespeak-ng-test.la
 libespeak-ng-test.so*
-
 tests/libfuzzrunner.a
 tests/libfuzzrunner.la
 tests/libfuzzrunner.so*
-
 # build output
-
 *.html
-
 src/espeak-ng.1
 src/speak-ng.1
-
 src/espeak-ng
 src/espeakedit
 src/speak-ng
-
 tests/*.test
 tests/*.check
 !tests/language-phonemes.test
@@ -125,12 +95,9 @@ tests/*.check
 !tests/windows-installer.test
 !tests/voices.test
 !tests/truncated-data.test
-
 espeak-ng.pc
-
 espeak-ng-*.tar.gz
 espeak-ng-*.*/
-
 # /tests/fuzzing/
 /tests/fuzzing/crash-*
 /tests/fuzzing/oom-*
@@ -141,16 +108,13 @@ espeak-ng-*.*/
 /tests/fuzzing/.deps/*.Po
 /tests/fuzzing/.dirstamp
 # Windows builds
-
 src/pcaudiolib/
 !src/windows/config.h
-
 *.obj
 *.lib
 *.dll
 *.exe
 *.msi
-
 *.exp
 *.idb
 *.ilk
@@ -160,36 +124,26 @@ src/pcaudiolib/
 *.pdb
 *.tlog
 *.tlog/
-
 .vs/
 *.VC.opendb
 *.sdf
 *.cache
 *.user
-
 *.wixobj
 *.wixpdb
 *.cab
 /src/windows/Release
 /src/windows/x64
-
 *.tmp
-
 *.nativecodeanalysis.xml
 *.nativecodeanalysis.all.xml
 *.lastcodeanalysissucceeded
-
 # Linux/Source distribution files
-
 praat-mod/
-
 ChangeLog.txt
 License.txt
 ReadMe
-Makefile
-
 # emscripten files
-
 emscripten/*.out
 emscripten/*.pkl
 emscripten/espeakng_data_package.js
@@ -200,22 +154,19 @@ emscripten/js/*.js
 !emscripten/Makefile
 !emscripten/js/demo.js
 !emscripten/js/espeakng.js
-
 # espeak-ng-data
-
 dictsource/*_extra
+!dictsource/en_extra
 dictsource/dict_log
 dictsource/dict_phonemes
 dictsource/ru_listx
 dictsource/cmn_listx
 dictsource/yue_listx
-
 phsource/compile_prog_log
 phsource/compile_report
 phsource/error_intonation
 phsource/error_log
 phsource/phonemes.stamp
-
 espeak-ng-data/config
 espeak-ng-data/dictsource
 espeak-ng-data/phsource
@@ -225,6 +176,14 @@ espeak-ng-data/phondata
 espeak-ng-data/phondata-manifest
 espeak-ng-data/phonindex
 espeak-ng-data/phontab
-
 espeak-ng-data/mbrola/
 espeak-ng-data/mbrola_ph/*_phtrans
+# eSpeak NG Charlie local build / secrets (do not publish)
+android/local.properties
+android/signing.properties
+android/build/
+android/.gradle/
+build-host/
+*.jks
+*.keystore
+*.idsig

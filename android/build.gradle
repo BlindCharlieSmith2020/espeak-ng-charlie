@@ -32,17 +32,18 @@ dependencies {
 android {
     compileSdk = 36
     ndkVersion = "29.0.14206865"
-    namespace = "com.reecedunn.espeak"
+    namespace = "nz.charlie.espeakng"
 
     buildFeatures {
         buildConfig = true
     }
 
     defaultConfig {
+        applicationId = "nz.charlie.espeakng"
         minSdk = 21
         targetSdk = 36
-        versionCode = 23
-        versionName = "1.53.0"
+        versionCode = 100
+        versionName = "1.0.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
         externalNativeBuild {
@@ -70,6 +71,14 @@ android {
             java.srcDirs = ['eSpeakTests/src']
             res.srcDirs = ['eSpeakTests/res']
         }
+        test {
+            java.srcDirs = ['tests']
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
     }
 
     lint {

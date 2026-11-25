@@ -1,0 +1,23 @@
+name English (New Zealand)
+language en-nz 2
+language en-gb 6
+language en 7
+
+maintainer Charlie Smith
+status testing
+
+// New Zealand English vowel shift, relative to British English.
+// KIT is centralized, DRESS and TRAP are raised, so "fish and chips"
+// has the familiar Kiwi quality. The language stays non-rhotic.
+replace 0 I @
+replace 0 I2 @
+replace 0 e I
+replace 0 a e
+
+// Slightly fronter vowels, a touch of sunshine in the tone.
+formant 1  100 100 100
+formant 2  106 100 100
+formant 3  102 100 100
+
+pitch 82 122
+tunes s1 c1 q1 e1
